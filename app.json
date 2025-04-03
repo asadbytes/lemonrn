@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "LemonRN",
+    "slug": "lemonrn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oneasadorg.lemonrn"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oneasadorg.lemonrn"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3d03243-9303-4d72-9555-8c7a431b8b13"
+      }
+    },
+    "owner": "oneasad-org",
+    "updates": {
+      "url": "https://u.expo.dev/f3d03243-9303-4d72-9555-8c7a431b8b13"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
